@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 
 const { Pool } = require('pg');
 const pool = new Pool({
-  user: 'sa',
+  user: 'postgres',
   host: 'localhost',
   database: 'circlus-dv',
   password: '1234',
