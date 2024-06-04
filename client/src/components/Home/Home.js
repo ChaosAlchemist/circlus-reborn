@@ -2,17 +2,17 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
-const Profile = () => {
+const Home = () => {
   return (
     <Container>
       <Typography variant="h4" gutterBottom>
-        Profile Page
+        Welcome to Circlus Reborn
       </Typography>
       <Typography variant="body1">
-        Here you can see and edit your profile information.
+        This is the home page of your enterprise social network.
       </Typography>
     </Container>
   );
 };
 
-export default Profile;
+export default Home;
